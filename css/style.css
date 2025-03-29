@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    & div.background {
+        background: #555555;
+        padding: 5vh 0;
+
+        & div.content {
+            margin: auto;
+            padding: 5rem;
+            width: 75%;
+            background: #ffffff;
+            font-family: sans-serif;
+
+            & div.task {
+                margin-top: 5vh;
+
+                & img {
+                    max-width: 100%;
+                }
+
+                & pre {
+                    padding: 1rem;
+                    border-radius: 1rem;
+                    overflow: auto;
+                }
+            }
+        }
+    }
+}
